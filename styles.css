@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #616161;
+}
+
+li, a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #d67800;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 40px 5%;
+  
+}
+
+.nav-logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+.nav-links{
+  list-style: none;
+  
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.nav-links li a {
+  transition: all 0.3s easy 0s;
+}
+
+.nav-links li a:hover{
+  color: #d64400;
+}
+.sec1 {
+  background-color: red;
+}
+.sec1_intro {
+  background-color: grey;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 100px ;
+  text-decoration: none;
+  height: 300px;
+  width: 700px;
+  border-radius: 150px;
+  text-align: center;
+  padding-top: 45px;
+  
+}
+.span1 {
+  color: #d67800;
+  background-color: grey;
+}
+
+/* ################################################# SECTION 2 - About Me text: I am a hardworking ... #########################################*/
+.sec2_intro{
+  /*background-color: grey;*/
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.h1_aboutme, .h1-hobby{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #d67800;
+  text-decoration: none;
+}
+.aboutme-text{
+  font-family: "Montserrat", sans-serif;
+  color: wheat;
+  font-size: 24px;
+  margin-top: 50px ;
+  text-decoration: none;
+  width: 1000px;
+  text-align: justify;
+  margin-left: 50px;
+}
+.extra-info {
+  color: wheat;
+  font-size: 14px;
+  font-style: italic;
+}
+.span2 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.pic1{
+  position: absolute;
+  width: 275px;
+  border-radius: 25px;
+  
+  left: 1200px;
+  top: 719px;
+
+
+
+}
+
+
+/* ################################################# SECTION 3 - Hobby1 - KBs - When i was a kid... #########################################*/
+
+.sec3 {
+  margin-top: 200px;
+  margin-left: 50px;
+}
+.hobby1-text{
+  font-family: "Montserrat", sans-serif;
+  color: wheat;
+  font-size: 24px;
+  margin-top: 50px ;
+  text-decoration: none;
+  width: 1000px;
+  text-align: justify;
+}
