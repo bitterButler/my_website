@@ -1,0 +1,24 @@
+.dice{
+  display: inline-block;
+}
+.DICEDIV.px-4.py-5.my-5.text-center{
+  background-color: grey;
+  border-radius: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.carousel-itemek{
+  height: 650px;
+}
+.carousel-imgk{
+  height: 100%;
+  object-fit: cover;
+}
+/*.dark-mode {
+  background-color: black;
+  color: white;
+}*/
+
+/*.RESULT_DIV{ //locally wrote style= "width" in html.
+  width: 200px
+}*/
