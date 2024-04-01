@@ -6,13 +6,13 @@
 3. Not finished
 
 ## Future Plans
-- Rebuild my page with Grid and Flexbox.
-- Use Bootstrap (framework)
-- Make it dynamic/interactive with JS.
+- Rebuilding my page is under construction.
+- Used Bootstrap
+- Make it dynamic/interactive with JS. (added first dice game via JS)
 
 ## More ideas for future:
 - Make it a password locked site. (this would appear first, and after unlocking would show the actual page)
-- Add a game (anything)
+- Add more games (anything, like a pac-man or snake game for example)
 - Make something (or the game so) that it can use Databases, to save something.  
 
 
