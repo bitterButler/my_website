@@ -3,11 +3,13 @@ var element = document.getElementById("demo");
 element.addEventListener("click", myFunction);
 
 
-function myFunction() {
-  document.getElementById("demo").innerHTML = "<strong>Generated Successfully!<strong>";
-  document.getElementById("demo").className = "btn btn-success"; //after click, i set button from yellow to green, so it shows successfully generation.
-  
+function buttonAnimate(){
+  var clickedButton = document.querySelector(".animateBTN");
+    clickedButton.className = "btn btn-success";
+    setTimeout(function(){clickedButton.className ="btn btn-warning"}, 200);
+}
 
+function myFunction() {
   // generating a random number, and with this i want to switch the images to that which has the number. 1 -> img1, 2-> img2, etc.
   var randNumberPlayer1 = Math.floor(Math.random()*6)+1;
   var randNumberPlayer2 = Math.floor(Math.random()*6)+1;
@@ -42,5 +44,3 @@ function myFunction() {
 
   }
 }
-
-//set after x sec the color from green to yellow, so it shows you can generate the next one.

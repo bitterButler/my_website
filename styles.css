@@ -14,11 +14,7 @@
   height: 100%;
   object-fit: cover;
 }
-/*.dark-mode {
-  background-color: black;
-  color: white;
-}*/
-
-/*.RESULT_DIV{ //locally wrote style= "width" in html.
-  width: 200px
-}*/
+.pressed{
+  box-shadow: 2px 1px 5px  #DBEDF3;
+  opacity: 0.5;
+}
